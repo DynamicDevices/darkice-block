@@ -37,6 +37,6 @@ build_and_push_image $DOCKER_REPO "raspberrypi4-64" "linux/arm64" "aarch64"
 
 build_and_push_image $DOCKER_REPO "raspberrypi3" "linux/arm/v7" "armv7hf"
 
-build_and_push_image $DOCKER_REPO "raspberry-pi" "linux/arm/v6" "armv6hf"
+build_and_push_image $DOCKER_REPO "raspberry-pi" "linux/arm/v6" "raspberry-pi"
 
 create_and_push_manifest
